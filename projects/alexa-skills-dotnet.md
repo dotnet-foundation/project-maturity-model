@@ -12,7 +12,7 @@ The [Alexa.NET toolkit](https://github.com/timheuer/alexa-skills-dotnet) is a li
 
 ## Maturity Ladder
 
-Tardis is a level 1 project.
+Alexa.NET is a level 1 project.
 
 See [.NET Foundation Maturity Ladder](../maturity-ladder.md).
 
