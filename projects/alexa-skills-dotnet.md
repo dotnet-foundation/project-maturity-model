@@ -21,11 +21,3 @@ See [.NET Foundation Maturity Ladder](../maturity-ladder.md).
 The project has two maintainers: [@timheuer](https://github.com/timheuer) and [@stoiveyp](https://github.com/stoiveyp).
 
 The maintainers are key contributors to the project for merging content into the project.  There is a smaller community of contributors to help bring new functionality to the project and help keep up-to-date when Alexa APIs are introduced.
-
-## Trusted Successors
-
-The following contributors are [trusted successors](../project-continuation-policies.md#trusted-successor) of this project.
-
-* [@timheuer](https://github.com/timheuer) (2019.09.23)
-
-Successors are requested to periodically update the timestamp beside their handle to demonstrate that they remain available for the role. An old timestamp might suggest that the successor is no longer available.
