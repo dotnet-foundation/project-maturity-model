@@ -14,7 +14,7 @@ A maintainer is considered unavailable if they cannot be contacted or are otherw
 
 Corporate-backed projects are considered to self-manage the need for a trusted successor. It is recommended that such projects use a corporate account on source and packages, such that possible breaks in continuity can be managed by corporate staff. In the case that the corporate-backer has a risk of or has gone out of business, it is recommended for maintainers to reach out to the .NET Foundation to select a successor.
 
-Both source and packages are key artifacts in the .NET ecosystem (and many others). In terms of actual mechanics, packages are the most important resource given that a specific package  may be referred to (by name and version) in thousands, even millions, of project files. If a trusted successor is able to get owner access to a package, and has a copy of the source (but maybe not admin access to the GitHub repo(s)), then they should be able to reasonably maintain project continuity. The Foundation may maintain private forks of projects in order to preserve source.
+Both source and packages are key artifacts in the .NET ecosystem (and many others). In terms of actual mechanics, packages are the most important resource given that a specific package may be referred to (by name and version) in thousands, even millions, of project files. If a trusted successor is able to get owner access to a package, and has a copy of the source (but maybe not admin access to the GitHub repo(s)), then they should be able to reasonably maintain project continuity. The Foundation may maintain private forks of projects in order to preserve source.
 
 ## Project forking policy
 
