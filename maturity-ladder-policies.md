@@ -16,17 +16,17 @@ Projects can request to participate in the maturity ladder by pull request on th
 * Hyperlink all relevant text, including GitHub handles. Full names can also be included, potentially with links to other resources (like a blog).
 * Name your file according to your project (for example `banana.md` for the "Banana project").
 * Add file to the [projects](https://github.com/dotnet/foundation/tree/master/projects) directory.
-* All maintainers and trusted successors must separately add their GitHub handle and/or a timestamp beside their handle by git commit. This process demonstrate their acceptance of their respective roles in the project and to participating in the maturity ladder.
+* All maintainers and trusted successors must separately add their GitHub handle and/or a timestamp beside their handle by git commit. This process demonstrates their acceptance of their respective roles in the project and to participating in the maturity ladder.
 * Make a pull request on this repository. The pull request description should make it clear when the working group should start the review process.
 * If accepted, the PR will be merged with all commits intact (no squashing).
 
-There is a preference to keeping these project files relatively short and uniform. Supporting information (for example, links to CI) that demonstrate satisfying the ladder requirements should be included in the PR description, or better yet, on a project-owned page (for example, on GitHub). A template can be created for that if there is a demand.
+There is a preference for keeping these project files relatively short and uniform. Supporting information (for example, links to CI) that demonstrate satisfying the ladder requirements should be included in the PR description, or better yet, on a project-owned page (for example, on GitHub). A template can be created for that if there is a demand.
 
-Maintainers must have an active [.NET Foundation personal membership](https://dotnetfoundation.org/become-a-member) to register , which can be established at no cost. This requirement is intended as a light-weight mechanism to ensure that the interests of maintainers and the .NET Foundation are aligned. For example, there may be Foundation membership votes that are of interest to maintainers.
+Maintainers must have an active [.NET Foundation personal membership](https://dotnetfoundation.org/become-a-member) to register, which can be established at no cost. This requirement is intended as a light-weight mechanism to ensure that the interests of maintainers and the .NET Foundation are aligned. For example, there may be Foundation membership votes that are of interest to maintainers.
 
 Trusted successors do not need an active .NET Foundation personal membership, although they are invited to create one.
 
-Trusted successors are requested to update the timestamp beside their handle ([example](projects/_sample.md#trusted-successors)) every 90-180 days to validate that they remain available, both generally, and for this this particular role.
+Trusted successors are requested to update the timestamp beside their handle ([example](projects/_sample.md#trusted-successors)) every 90-180 days to validate that they remain available, both generally, and for this particular role.
 
 Project users cannot register on the behalf of a maintainer. They are free to request maintainers to register (just like they might file a feature request).
 
@@ -40,7 +40,7 @@ Project users cannot register on the behalf of a maintainer. They are free to re
 
 Why link the ladder with Foundation membership? In short, this is how other foundations work, and it is considered a good model for growing projects from incubation to graduation for broad ecosystem benefit. However, the working group sees significant value in making the ladder a more generally applicable definition of quality for the ecosystem to use. That's why Foundation membership is part of the ladder but doesn't start with it. Level 3 was considered a good point to include Foundation membership as a required characteristic.
 
-There are also more practical considerations. Levels 3 and 4 include requirements that require paying for things (like signing certificates). Level 4 includes a requirement to use trusted infrastructure. It is much easier to avoid maintainers having out-of-pocket expenses and to satisfy trust requirements if levels 3 and 4 are limited to .NET Foundation projects. It is also easier to add  potentially costly ($) requirements later on, due to the changing requirements of the industry, if the Foundation simply pays those costs for Foundation projects. For example, the Foundation may upgrade to a higher cost version of static analysis tools and publish that as a new benefit of all level 3 and 4 projects.
+There are also more practical considerations. Levels 3 and 4 include requirements that require paying for things (like signing certificates). Level 4 includes a requirement to use trusted infrastructure. It is much easier to avoid maintainers having out-of-pocket expenses and to satisfy trust requirements if levels 3 and 4 are limited to .NET Foundation projects. It is also easier to add potentially costly ($) requirements later on, due to the changing requirements of the industry, if the Foundation simply pays those costs for Foundation projects. For example, the Foundation may upgrade to a higher cost version of static analysis tools and publish that as a new benefit of all level 3 and 4 projects.
 
 ## Existing .NET Foundation Projects
 
