@@ -69,7 +69,7 @@ This level of project is intended to provide a consumer with a project that has 
   * \>1 project maintainer.
   * [Member project](https://dotnetfoundation.org/projects) of the .NET Foundation.
 * **Practices**
-  * Complies with [.NET Foundation continuation policy](continuation-policy.md).
+  * Complies with [.NET Foundation continuation policies](project-continuation-policies.md).
   * Stable packages depend on libraries that are at level #2 or higher.
   * Signs packages.
   * Uses static analysis tools to validate pedigree and safety.
