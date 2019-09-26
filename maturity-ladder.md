@@ -71,7 +71,7 @@ This level of project is intended to provide a consumer with a project that has 
 * **Practices**
   * Complies with [.NET Foundation continuation policies](project-continuation-policies.md).
   * Stable packages depend on libraries that are at level #2 or higher.
-  * Signs packages.
+  * [Signs packages](https://docs.microsoft.com/en-us/nuget/reference/signed-packages-reference) (Note: this refers to digitally signing NuGet packages, not strong naming).
   * Uses static analysis tools to validate pedigree and safety.
   * Applies [.NET API design guidelines](https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/framework-design-guidelines-digest.md).
   * Seeks and applies guidance from .NET Foundation design and architecture group.
