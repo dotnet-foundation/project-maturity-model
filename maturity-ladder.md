@@ -63,7 +63,7 @@ This level describes a project that has a basic layer of security practices in p
 This level of project is intended to provide a consumer with a project that has proven to be generally useful (via crowd voting), and that employs a higher-level of practices that demonstrate a strong commitment to continuous improvement and secure software.
 
 * **Health**
-  * The ecosystem has adopted this project at a significant scale, demonstrated by one or more key metrics, such as package downloads, number of dependent projects on GitHub, or community activity on the project repo(s).
+  * The ecosystem has adopted this project at a significant scale, demonstrated by one or more key metrics, such as package downloads, number of dependent projects on GitHub, or community activity on or related to the project repo(s).
   * Project documentation is available for users.
   * Documents security vulnerability publishing policy.
   * \>1 project maintainer.
