@@ -3,6 +3,7 @@ name: New issue
 about: Creates a public issue to track feedback on the Project Maturity Model. 
 ---
 
+<!--
 Instructions:
 Thanks for taking the time to participate in this discussion and help us build this program in the open. Please delete the
 below when creating a new issue. 
@@ -14,3 +15,4 @@ discussion or including a list of issues. Instead, please jump in on some of the
 are the conditions under which your issue can be closed? If there aren't clear conditions for closing the issue, it might
 be an open ended discussion... see 1. above. If you have a list of suggestions, please open several issues.
 3. Feel free to open pull requests with suggested changes to the policies we've proposed.
+-->
