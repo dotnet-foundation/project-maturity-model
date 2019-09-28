@@ -6,7 +6,7 @@ Project continuation is one of the most important, but least obvious, concerns f
 
 Level 3 projects must register a trusted successor in the case that the maintainer becomes unavailable. The successor can be a specific person or an organization. In the case that the project maintainer becomes unavailable, the trusted successor will be given access to project source, packages and any other critical assets, so that the project can continue functioning.
 
-The [project application process](project-ladder-policies#application) includes listing trusted successors.
+The [project application process](maturity-profiles-policies.md#application) includes listing trusted successors.
 
 The (yet unproven) assumption is that services like NuGet.org and GitHub will respect these maintainer-defined policies and enable adding the trusted successor(s) as an admin to an org, repo or package. Alternatively, projects can add a .NET Foundation account to act as a mechanical mediator between the maintainer and their successor, as required, using the same "unavailable" policy.
 

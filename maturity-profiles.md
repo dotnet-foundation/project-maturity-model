@@ -24,7 +24,7 @@ The maturity profiles are described in terms of three categories: health, practi
 
 The health and practices listed for each maturity profile are intended as valuable and important, however, projects may be considered to achieve a maturity profile without satisfying every single line item. Some of the qualities are critical and others are more supporting (they are listed in order of importance, per category). Assessment of projects is intended to hit the sweet spot between rewarding maintainers for an honest effort to meet the requirements of a maturity profile and deliver on a confidence promise to users.
 
-### 1, Incubator
+### 1. Incubator
 
 This profile describes a project that is healthy, enabling easy and pleasant interaction and use for consumers. It is intended to be within reach of any project.
 
@@ -110,6 +110,6 @@ Corporate-backed projects can use .NET Foundation infrastructure (as described a
 
 The maturity profiles are intended to define and provide major improvements in quality and confidence improvements for project consumers. However, it provides no absolute guarantees. Even when viewed through the lens of "best effort and best intentions" on the part of maintainers, bad things can still happen that cause harm.
 
-Maturity profiles [Continuity practices](#Continuity-practices) and [Full security practices](#Full-security-practices) put stronger safeguards in place to mitigate a variety of undesired scenarios. They define a model for building confidence using open source community projects.
+Maturity profiles [Continuity practices](#3-continuity-practices) and [Full security practices](#4-full-security-practices) put stronger safeguards in place to mitigate a variety of undesired scenarios. They define a model for building confidence using open source community projects.
 
 Some projects may display badges that do not use the badge server, and therefore are based on self-assessment and may even be intentionally deceptive. This is not expected to be common and will be discouraged. The community may actively discourage maintainers from this practice. On GitHub, it is easy to tell the source of a badge.
