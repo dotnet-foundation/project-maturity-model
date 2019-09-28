@@ -80,8 +80,11 @@ The [project forking policy](project-continuation-policies.md#project-forking-po
 
 ## Maintainer code of conduct violations
 
-It is unlikely but possible that a maintainer might start to violate the code of conduct of their own project. All code of conduct violations are taken seriously by the Foundation.
+It is unlikely but possible that a maintainer might start to violate the code of conduct of their own project. All code of conduct violations are taken seriously by the Foundation and are subject to the Foundation's conduct review policy.
 
+<!-- Include link to .NET Foundation's conduct review process when it's available -->
+
+After review likely sanctions will include:
 * Maintainers will be given one code of conduct violation warning, which is considered to last one year.
 * Upon a second violation, the project will be removed from .NET Foundation programs, including the maturity ladder.
 * Severe violations, such as hate speech, or threats of violence will result in immediate removal.
