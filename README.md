@@ -2,6 +2,8 @@
 
 This proposal describes new approaches that we can use to improve the quality and quantity of .NET open source projects, and the .NET ecosystem generally. The .NET ecosystem is strong, but could be stronger still, and there are general challenges in open source projects that we should address in our ecosystem.
 
+The .NET Foundation is a independent foundation created to support .NET Open Source Software. As an independent foundation it's in a unique position to support open source projects to target new clients and to help projects adopt best practices.
+
 > TL;DR: We are proposing three new programs:
 >  * Maturity profiles that define project quality.
 >  * A training and support program for maintainers
