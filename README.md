@@ -3,7 +3,7 @@
 This proposal describes new approaches that we can use to improve the quality and quantity of .NET open source projects, and the .NET ecosystem generally. The .NET ecosystem is strong, but could be stronger still, and there are general challenges in open source projects that we should address in our ecosystem.
 
 > TL;DR: We are proposing three new programs:
->  * A new 4-level project maturity model that defines project quality and encourages graduating from one level to the next
+>  * Maturity profiles that define project quality.
 >  * A training and support program for maintainers
 >  * A new project forge that creates new projects for the ecosystem.
 >  The goals of these programs are to increase project quality for consumers, increase consumer confidence in and adoption of community libraries, and to fill gaps to make .NET development more efficient and more fun.
@@ -12,8 +12,8 @@ The remainder of the document describes the proposed approaches, and references 
 
 Supporting documents:
 
-* [.NET Foundation Maturity Ladder](maturity-ladder.md)
-* [.NET Foundation Maturity Ladder Policies](maturity-ladder-policies.md)
+* [.NET Foundation Maturity Profiles](maturity-profiles.md)
+* [.NET Foundation Maturity Profiles Program](maturity-profiles-policies.md)
 * [.NET Foundation Project Continuation Policies](project-continuation-policies.md)
 
 Note: The term "projects" is used throughout as a broad catch-all term. While most open source projects are likely libraries, the proposal equally applies to tools, applications, services and other project varieties.
@@ -67,28 +67,24 @@ One can think of that five year period for the Foundation as being narrowly focu
 
 This proposal was developed by a .NET Foundation working group, based on observed challenges and missed opportunities in the ecosystem. The proposal was further refined with the Technical Steering Group and Advisory Council, with the goal of launching an initial pilot and to solicit feedback from the broader community.
 
-## Proposal: Maturity Ladder
+## Proposal: Maturity profiles
 
-> Proposal: Define a maturity ladder that projects can use for grading/certification, to increase user confidence and adoption.
+> Proposal: Define maturity profiles that projects can use for certification, to increase user confidence and adoption.
 
 Project quality is a tough nut to crack, and can be approached in many ways. For the purpose of this document, project quality is approached exclusively from the vantage point of improving user confidence.
 
 Note: We should use surveys over time to validate that confidence is improving based on this proposal.
 
-When you are building an application, every new dependency you add should *reduce* your confidence unless you have a well-justified reason to trust that dependency. The maturity ladder is intended to help provide project consumers (that take a dependency on a community project) with more information so that they can make more informed choices, and also develop a more accurate sense of safety for their code (which to a large degree is a function of its dependencies).
+When you are building an application, every new dependency you add should *reduce* your confidence unless you have a well-justified reason to trust that dependency. The maturity profiles are intended to help provide project consumers (that take a dependency on a community project) with more information so that they can make more informed choices, and also develop a more accurate sense of safety for their code (which to a large degree is a function of its dependencies).
 
-An analogue to the quality ladder is [food inspection reporting](https://www.kingcounty.gov/depts/health/environmental-health/food-safety/inspection-system.aspx) at restaurants. The food inspection reports provide value to producer and consumer, with a bias to consumer, and only work because the score card is maintained by a third party that both parties accept. Another example is [FIPS security levels](https://en.wikipedia.org/wiki/FIPS_140-2#Security_levels).
-
-Unlike food inspection reporting, there are no negative ratings that are part of the [.NET Foundation Maturity Ladder](maturity-ladder.md), but a "good", "better", "best" progression.
-
-The ladder attempts to resolve the following real-world challenges:
+The maturity profiles attempts to resolve the following real-world challenges:
 
 * What happens if a lone maintainer abandons the project (for example, due to death), and does not have a plan in place for continuation?
 * How does the maintainer manage vulnerabilities, both ingestion of fixes from dependencies of the project and disclosing its own vulnerabilities?
 * Does the binary describe the git SHA it was built from, and is that accurate, and public?
 * Can users have confidence that the project is safe to use, from the perspective of malware, or other dangerous code?
 
-The maturity ladder and the associated ladder levels are fully defined in [.NET Foundation Maturity Ladder](maturity-ladder.md). It references additional policies defined in [.NET Foundation Maturity Ladder Policies](maturity-ladder-policies.md) and [.NET Foundation Project Continuation Policy](project-continuation-policies.md).
+The maturity profiles are fully defined in [.NET Foundation Maturity Profiles](maturity-profiles.md). It references additional policies defined in [.NET Foundation Maturity Profiles Program](maturity-profiles-policies.md) and [.NET Foundation Project Continuation Policy](project-continuation-policies.md).
 
 ## Proposal: Project Forge
 
@@ -135,7 +131,7 @@ A new working group will be formed to manage the maintainer bench program within
 
 These proposals are intended to provide solutions for challenges in the software industry, for the .NET ecosystem, with the following desired benefits:
 
-* **For maintainers:** increase adoption and contributors, by describing and improving project quality for users according to a shared quality definition (the maturity ladder).
+* **For maintainers:** increase adoption and contributors, by describing and improving project quality for users according to a shared quality definition (the maturity profiles).
 * **For contributors:** improves opportunities and mentorship available for personal growth and community engagement.
 * **For users:** improves the security and transparency of the open source software supply chain, by making it easier to select dependencies.
 * **For users:** increases the availability of libraries that satisfy important scenarios, by adopting a structured process for matching new projects with maintainers.
