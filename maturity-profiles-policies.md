@@ -1,4 +1,4 @@
-# .NET Foundation Maturity Profiles Policies
+# .NET Foundation Maturity Profiles Program
 
 This document describes policies for the [.NET Foundation Maturity Profiles](maturity-profiles.md).
 
@@ -36,11 +36,11 @@ Project users cannot register on the behalf of a maintainer. They are free to re
 
 * Projects do not need to formally join the Foundation to participate in the maturity profiles.
 * Projects are given the option to join the Foundation at [Basic security practices](maturity-profiles.md#Basic-security-practices).
-* Projects must [join the Foundation](https://github.com/dotnet/foundation/blob/master/guidance/new-projects.md) at maturity profile #3. Exemptions may be granted by the working group by specific request.
+* Projects must [join the Foundation](https://github.com/dotnet/foundation/blob/master/guidance/new-projects.md) at maturity profile 3 or above. Exemptions may be granted by the working group by specific request.
 
-Why link the maturity profiles with Foundation membership? In short, this is how other foundations work, and it is considered a good model for growing projects from incubation to graduation for broad ecosystem benefit. However, the working group sees significant value in making the maturity profiles a more generally applicable definition of quality for the ecosystem to use. That's why Foundation membership is part of the maturity profiles but doesn't start with it. Maturity profile #3 is considered a good point to include Foundation membership as a required characteristic.
+Why link the maturity profiles with Foundation membership? In short, this is how other foundations work, and it is considered a good model for growing projects from incubation to graduation for broad ecosystem benefit. However, the working group sees significant value in making the maturity profiles a more generally applicable definition of quality for the ecosystem to use. That's why Foundation membership is part of the maturity profiles but doesn't start with it. Maturity profile 3 is considered a good point to include Foundation membership as a required characteristic.
 
-There are also more practical considerations. Maturity profiles #3 and #4 include requirements that require paying for things (like signing certificates). Maturity profile #4 includes a requirement to use trusted infrastructure. It is much easier to avoid maintainers having out-of-pocket expenses and to satisfy trust requirements if maturity profiles 3 and 4 are limited to .NET Foundation projects. It is also easier to add potentially costly ($) requirements later on, due to the changing requirements of the industry, if the Foundation simply pays those costs for Foundation projects. For example, the Foundation may upgrade to a higher cost version of static analysis tools and publish that as a new benefit of all maturity profile 3 and 4 projects.
+There are also more practical considerations. Maturity profiles 3 and 4 include requirements that require paying for things (like signing certificates). Maturity profile 4 includes a requirement to use trusted infrastructure. It is much easier to avoid maintainers having out-of-pocket expenses and to satisfy trust requirements if maturity profiles 3 and 4 are limited to .NET Foundation projects. It is also easier to add potentially costly ($) requirements later on, due to the changing requirements of the industry, if the Foundation simply pays those costs for Foundation projects. For example, the Foundation may upgrade to a higher cost version of static analysis tools and publish that as a new benefit of all maturity profile 3 and 4 projects.
 
 ## Existing .NET Foundation Projects
 
@@ -48,7 +48,7 @@ Existing .NET Foundation projects are encouraged but not required to participate
 
 ## Forge projects
 
-New projects created in the [project forge](README.md#proposal-project-forge) will be established as .NET Foundation projects. They will be given initial support such that they can satisfy maturity profile #2 relatively easily.
+New projects created in the [project forge](README.md#proposal-project-forge) will be established as .NET Foundation projects. They will be given initial support such that they can satisfy maturity profile 2 relatively easily.
 
 ## Working group process
 
